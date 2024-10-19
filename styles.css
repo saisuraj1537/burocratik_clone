@@ -1,0 +1,101 @@
+.main-div{
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.logo{
+    height: 40px;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: transparent;
+    color: white;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+a{
+    color: white;
+}
+.text-bg{
+    height: 400px;
+    background-image: url("https://img.freepik.com/premium-vector/black-oblique-curved-lines-background-vector-image_688730-1245.jpg?w=900");
+}
+.animated-icon-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-card{
+    margin-right: 15px;
+}
+.animated-text{
+    padding-top: 13px;
+}
+.awards-yt-video{
+    width: 400px;
+}
+.awards-img{
+    width: 100%;
+}
+.hello-text{
+    background-color: transparent;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Set the height of the div where the video will play */
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video fills the container div */
+  }
+
+  .content {
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .text-over-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    z-index: 1;
+    text-align: center;
+  }
+  .utrusts-img{
+    width: 100%;
+  }
+  .pointer {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-color: white; /* Initial color */
+    border-radius: 50%;
+    pointer-events: none; /* Prevent pointer from blocking events */
+    z-index: 1000;
+  }
+  .ball-icon{
+    --fa-bounce-land-scale-x: 1.2;
+              --fa-bounce-land-scale-y: 0.8;
+              --fa-bounce-rebound: 2px;
+  }
